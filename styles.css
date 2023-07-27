@@ -1,0 +1,36 @@
+/* ... (previous code) ... */
+
+/* Custom styles for hero section with hero image */
+.hero {
+  background-image: url("./hero-img.jpg"); /* Replace 'path-to-your-hero-image.jpg' with the actual path to your hero image */
+  max-height: 300px;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Add position relative to allow z-index */
+}
+
+/* Adjust the height of the hero section */
+.hero .hero-body {
+  position: relative;
+  z-index: 1;
+  padding: 3rem; /* Adjust the padding to give space around the text */
+}
+
+/* Custom styles for hero text */
+.hero .title {
+  color: #f39c12;
+}
+
+.hero .subtitle {
+  color: #34495e;
+}
+
+.hero .button.is-primary {
+  background-color: #f39c12;
+  color: #fff;
+  border-color: #f39c12;
+}
